@@ -3,8 +3,10 @@ layout: default
 ---
 
 <div class="home">
-  {% include headpic.html %}
+
   <h1 class="page-heading">Posts</h1>
+
+ {% include headpic.html %}
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -21,6 +23,6 @@ layout: default
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-  {% include about.html %}
+ {% include about.html %}
 
 </div>
