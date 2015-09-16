@@ -1,9 +1,5 @@
-.minimalpost {
-  font-size: 5px;
-}
-
-h2 {
-  font-size: 5px;
+.postfeedwrapper {
+  margin: 2em 10em 0 10em;
 }
 
 .site-header {
