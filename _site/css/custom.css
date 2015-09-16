@@ -4,5 +4,10 @@
 
 .site-header {
 	font-size:40px;
-
+	position:fixed;
+	right:0px;
+	width:20em;
+	margin-top: -2em;
+	padding-bottom: -2em;
+	background-color:white;
 }
