@@ -21,7 +21,7 @@ function arrFromClass(elem, className) {
 var postTitles = arrFromClass(document, 'minimalpost');
 
 postTitles.forEach(function(elem) {
-  elem.getElementsByClassName('post-link')[0].addEventListener('click', function(event) {
+  elem.getElementsByClassName('blogtitlebanner')[0].addEventListener('click', function(event) {
     toggleClass(elem.getElementsByClassName('blog-content')[0], 'bloginvis')
   });
 });
