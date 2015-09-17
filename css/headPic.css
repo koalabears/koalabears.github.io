@@ -22,10 +22,16 @@
 
 }
 
+.headPicMain img {
+  width: 20em;
+}
+
 .headPicMain {
   position: relative;
   top: 180px;
   text-align: center;
+  top: 4em;
+
 
 }
 
