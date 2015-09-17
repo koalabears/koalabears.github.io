@@ -13,8 +13,15 @@
   overflow: auto;
 }
 
+.site-footer{
+  padding:0;
+  padding-bottom:0;
+
+
+}
+
 .wrapper {
-  margin: 2em 2em 3em 2em;
+  margin: 2em 0.5em 3em 1em;
 }
 
 .blogtitlebanner {
@@ -50,6 +57,7 @@
 
 .post{
     padding-top:2em;
+    height:20em;
 }
 
 .site-title img {
