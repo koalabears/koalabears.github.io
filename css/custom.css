@@ -7,15 +7,30 @@
 	position:fixed;
 	right:0px;
 	width:100%;
-	margin-top: -2em;
+	margin-top: -3em;
 	padding-bottom: -2em;
 	background-color:white;
 }
 
 .wrapper {
-  margin: 0 2rem;
+  margin: 2em 2em 3em 2em;
 }
 
 .bloginvis {
   display: none;
+}
+
+.content{
+  margin: 5em -2em 0em -2em;
+}
+
+.post{
+    padding-top:2em;
+}
+
+.site-title img {
+    width: 3.5em;
+    margin: .3em 0em .3em -1em;
+    float: left;
+
 }
