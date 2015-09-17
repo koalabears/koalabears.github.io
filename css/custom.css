@@ -10,7 +10,6 @@
 	margin-top: -3em;
 	padding-bottom: -2em;
 	background-color:white;
-  z-index: 1;
   overflow: auto;
 }
 
@@ -25,10 +24,27 @@
   margin: 2em 0.5em 3em 1em;
 }
 
+.blogtitlebanner {
+  border-bottom: solid 1px #B8B8B8;
+  border-radius: .2em;
+  padding: .3rem .8rem 0 .8rem;
+}
+
+.blogtitlebanner:hover {
+  background-color: #E6E6E6;
+  transition: background-color .2s;
+}
+
+.blogtitlebanner h2 {
+  margin-bottom: 0;
+}
+
 .blog-content {
   overflow: hidden;
   transition: max-height 1s;
   max-height: 40em;
+  margin-top: 1em;
+  padding: 0 .8rem;
 }
 
 .blog-content.bloginvis {
