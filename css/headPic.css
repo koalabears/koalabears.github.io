@@ -14,8 +14,8 @@
   font-family: 'Segoe UI', 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;;
   font-weight: 600;
   font-size: 4.6em;
-  margin-top: 0;
-  margin-bottom: 6em;
+  /*margin-top: 0;
+  margin-bottom: 6em;*/
   text-transform: uppercase;
 
 }
@@ -29,5 +29,6 @@
 .headPicContainer {
     max-width: 940px;
     margin: 0 auto;
-    padding: 0 10px;
+    margin-top: -3em;
+    /*padding: 0 10px;*/
 }
