@@ -14,5 +14,8 @@
 
 .wrapper {
   margin: 0 2rem;
+}
 
+.bloginvis {
+  display: none;
 }
