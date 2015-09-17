@@ -78,7 +78,7 @@
 
 .profiles img {
   border-radius: 100%;
-  padding: 1.5em;
+  padding: 0.8em;
 
 }
 
@@ -105,4 +105,12 @@
 
 .trigger a {
   font-size: 0.5em;
+}
+
+img.social-links  {
+  display: inline;
+  height: 1.5em;
+  padding:0.05em;
+
+
 }
