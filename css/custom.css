@@ -11,16 +11,16 @@
 	padding-bottom: -2em;
 	background-color:white;
   z-index: 1;
+  overflow: auto;
 }
 
 .wrapper {
   margin: 2em 2em 3em 2em;
-
 }
 
-.blog-content{
+.blog-content {
   overflow: hidden;
-  transition: max-height 1.5s;
+  transition: max-height 1s;
   max-height: 40em;
 }
 
@@ -38,11 +38,10 @@
 
 .site-title img {
     width: 3.5em;
-    margin: .3em 0em .13em -1em;
+    margin: .3em 0em .3em -1em;
     float: left;
 }
 
-.page-link {
-  font-family: 'Segoe UI', 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;;
-  font-size: 0.7em;
+.page-heading {
+  font-size: 2em;
 }
