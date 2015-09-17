@@ -7,12 +7,22 @@
 	position:fixed;
 	right:0px;
 	width:100%;
-	margin-top: -2em;
+	margin-top: -3em;
 	padding-bottom: -2em;
 	background-color:white;
 }
 
 .wrapper {
   margin: 0 2rem;
+  margin-top: 2em;
+  margin-bottom: 3em;
 
+}
+
+.content{
+  margin: 5em -2em 0em -2em;
+}
+
+.post{
+    padding-top:2em;
 }
