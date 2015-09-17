@@ -14,12 +14,14 @@ function hasClass(elem, className) {
     return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
 }
 
-var postTitles = Array.prototype.slice.call(document.getElementsByClassName('minimalpost'));
+function arrFromClass(elem, className) {
+  return Array.prototype.slice.call(elem.getElementsByClassName(className));
+}
+
+var postTitles = arrFromClass(document, 'minimalpost');
 
 postTitles.forEach(function(elem) {
-  var postLink = elem.getElementsByClassName('post-link');
   elem.getElementsByClassName('post-link')[0].addEventListener('click', function(event) {
-    var tmp = elem.getElementsByClassName('blog-content');
     toggleClass(elem.getElementsByClassName('blog-content')[0], 'bloginvis')
   });
 });

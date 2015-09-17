@@ -4,6 +4,7 @@
   background-size: cover;
   height: 30em;
   margin: 5em -2em 0 -2em;
+  z-index: -2;
 
 }
 
@@ -14,16 +15,24 @@
   font-family: 'Segoe UI', 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;;
   font-weight: 600;
   font-size: 4.6em;
+  z-index: -1;
   /*margin-top: 0;
   margin-bottom: 6em;*/
   text-transform: uppercase;
 
 }
 
+.headPicMain img {
+  width: 20em;
+}
+
 .headPicMain {
   position: relative;
   top: 180px;
   text-align: center;
+  top: 4em;
+
+
 }
 
 .headPicContainer {
