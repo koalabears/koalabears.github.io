@@ -9,8 +9,6 @@
 }
 
 .headPicMain h1 {
-
-
   color: #FFFFFF;
   font-family: 'Segoe UI', 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;;
   font-weight: 600;
@@ -23,7 +21,7 @@
 }
 
 .headPicMain img {
-  width: 20em;
+  width: 30%;
 }
 
 .headPicMain {
@@ -31,13 +29,28 @@
   top: 180px;
   text-align: center;
   top: 4em;
-
+  margin-left: 2rem
 
 }
 
 .headPicContainer {
     max-width: 940px;
-    margin: 0 auto;
-    margin-top: -3em;
+    margin: -3em auto 0 auto;
+    /*margin-top: -3em;*/
     /*padding: 0 10px;*/
+}
+
+
+
+.maintitlewrapper {
+  margin: auto;
+}
+
+@media (max-width: 50rem) {
+  .maintitlewrapper {
+    max-width: 28rem;
+  }
+  .headPicMain img {
+    width: 25%;
+  }
 }
