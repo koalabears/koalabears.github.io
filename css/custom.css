@@ -10,10 +10,12 @@
 	margin-top: -3em;
 	padding-bottom: -2em;
 	background-color:white;
+  z-index: 1;
 }
 
 .wrapper {
   margin: 2em 2em 3em 2em;
+
 }
 
 .blog-content{
@@ -36,6 +38,11 @@
 
 .site-title img {
     width: 3.5em;
-    margin: .3em 0em .3em -1em;
+    margin: .3em 0em .13em -1em;
     float: left;
+}
+
+.page-link {
+  font-family: 'Segoe UI', 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;;
+  font-size: 0.7em;
 }
