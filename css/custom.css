@@ -1,5 +1,5 @@
 .postfeedwrapper {
-  margin: 2em 10em 0 10em;
+  margin: 2em 10% 0 10%;
 }
 
 .site-header {
@@ -38,14 +38,14 @@
 }
 
 .blogtitlebanner h2 {
-  margin-bottom: 0;
+  margin-bottom: -1rem;
 }
 
 .blog-content {
   overflow: hidden;
   transition: max-height 1s;
   max-height: 40em;
-  margin-top: 1em;
+  margin-top: .5em;
   padding: 0 .8rem;
 }
 
@@ -70,4 +70,39 @@
 
 .page-heading {
   font-size: 2em;
+}
+
+.minimalpost {
+  margin-bottom: -1em;
+}
+
+.profiles img {
+  border-radius: 100%;
+  padding: 1.5em;
+
+}
+
+.profileWrap h1 {
+  text-align: center;
+  width: 100%;
+  padding-top: 1em;
+  font-weight: 400;
+}
+
+.profileWrap {
+  padding-top: 1em;
+}
+
+
+.profileContainer div {
+
+  display: inline-block;
+}
+
+.blog-content p {
+  color: black;
+}
+
+.trigger a {
+  font-size: 0.5em;
 }
