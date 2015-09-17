@@ -2,10 +2,13 @@
 layout: page
 title: About us
 permalink: /about/
+
 ---
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+<img src="https://avatars1.githubusercontent.com/u/12450298?v=3&s=400" height="150" width="150">
+Jack
+<img src="https://avatars1.githubusercontent.com/u/12845233?v=3&s=400" height="150" width="150">
+Eoin
+<img src="https://cloud.githubusercontent.com/assets/11833296/9937590/539f932c-5d59-11e5-874d-465142e5d189.png" height="150" width="150">
+Naaz
+<img src="https://avatars3.githubusercontent.com/u/13470325?v=3&s=400" height="150" width="150">
+Marie
