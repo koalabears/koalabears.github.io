@@ -75,3 +75,34 @@
 .minimalpost {
   margin-bottom: -1em;
 }
+
+.profiles img {
+  border-radius: 100%;
+  padding: 1.5em;
+
+}
+
+.profileWrap h1 {
+  text-align: center;
+  width: 100%;
+  padding-top: 1em;
+  font-weight: 400;
+}
+
+.profileWrap {
+  padding-top: 1em;
+}
+
+
+.profileContainer div {
+
+  display: inline-block;
+}
+
+.blog-content p {
+  color: black;
+}
+
+.trigger a {
+  font-size: 0.5em;
+}
