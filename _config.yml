@@ -1,5 +1,6 @@
 # Site settings
-title: Test
+title: Testyes
+photo: <img src="https://cloud.githubusercontent.com/assets/12450298/9933793/6156164e-5d45-11e5-88dd-c6f09df991f3.png">
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
