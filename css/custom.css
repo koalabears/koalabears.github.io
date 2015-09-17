@@ -16,8 +16,14 @@
   margin: 2em 2em 3em 2em;
 }
 
-.bloginvis {
-  display: none;
+.blog-content{
+  overflow: hidden;
+  transition: max-height 1.5s;
+  max-height: 40em;
+}
+
+.blog-content.bloginvis {
+  max-height: 3em;
 }
 
 .content{
