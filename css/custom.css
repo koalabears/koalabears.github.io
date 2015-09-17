@@ -98,3 +98,7 @@
 .blog-content p {
   color: black;
 }
+
+.trigger a {
+  font-size: 0.5em;
+}
