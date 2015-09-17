@@ -4,9 +4,19 @@
 
 .site-header {
 	font-size:40px;
+<<<<<<< HEAD
 
 }
 
 .wrapper {
   margin: 0 2em;
 }
+=======
+	position:fixed;
+	right:0px;
+	width:20em;
+	margin-top: -2em;
+	padding-bottom: -2em;
+	background-color:white;
+}
+>>>>>>> master
