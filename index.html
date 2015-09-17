@@ -12,11 +12,13 @@ layout: default
         {% for post in site.posts %}
           <li class="minimalpostlist">
             <div class="minimalpost">
+              <div class = "blogtitlebanner">
               <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
               <!-- <img src={{post.imgurl}}> </img> -->
               <h2>
                 <p class="post-link" >{{ post.title }}</p>
               </h2>
+            </div>
               <div class="blog-content bloginvis">
                 {{post.content}}
               </div>
