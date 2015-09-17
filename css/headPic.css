@@ -29,7 +29,7 @@
   top: 180px;
   text-align: center;
   top: 4em;
-  margin-left: 2rem
+  margin-left: 0rem
 
 }
 
@@ -48,9 +48,13 @@
 
 @media (max-width: 50rem) {
   .maintitlewrapper {
-    max-width: 28rem;
+    max-width: 22rem;
   }
   .headPicMain img {
-    width: 25%;
+    width: 30%;
   }
+  .headPicMain h1 {
+    font-size: 4em;
+  }
+
 }
