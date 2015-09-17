@@ -1,8 +1,12 @@
 .postfeedwrapper {
-  margin: 2em 10em 0 10em;
+  margin: 2em 2em 0 2em;
 }
 
 .site-header {
 	font-size:40px;
 
+}
+
+.wrapper {
+  margin: 0 2em;
 }

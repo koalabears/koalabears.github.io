@@ -3,16 +3,16 @@
   background: url(http://www.organichealthalliance.com/wp-content/uploads/2014/04/Flaking-bark-from-3-rainbow-eucalyptus-trees.jpg) no-repeat center center;
   background-size: cover;
   height: 30em;
+  margin: 0 -2em;
 
 }
 
 .headPicMain h1 {
-
-
   color: #FFFFFF;
   font-family: 'Segoe UI', 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;;
   font-weight: 600;
   font-size: 4.6em;
+  text-align: center;
   margin-top: 0;
   margin-bottom: 6em;
   text-transform: uppercase;
