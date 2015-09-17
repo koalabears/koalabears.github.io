@@ -7,18 +7,16 @@ layout: default
   {% include headpic.html %}
 
     <div class="postfeedwrapper">
-      <!-- <h1 class="page-heading">Blog</h1> -->
+      <h1 class="page-heading">Blog</h1>
       <ul class="post-list">
         {% for post in site.posts %}
           <li class="minimalpostlist">
             <div class="minimalpost">
-              <div class="blogtitlebanner">
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-                <!-- <img src={{post.imgurl}}> </img> -->
-                <h2>
-                  <p class="post-link" >{{ post.title }}</p>
-                </h2>
-              </div>
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <!-- <img src={{post.imgurl}}> </img> -->
+              <h2>
+                <p class="post-link" >{{ post.title }}</p>
+              </h2>
               <div class="blog-content bloginvis">
                 {{post.content}}
               </div>
