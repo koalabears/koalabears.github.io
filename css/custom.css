@@ -125,6 +125,7 @@ img.social-links  {
 
 .profileContainer > div > img {
   transition: height 1s, width 1s;
+  -webkit-transition: height 1s, width 1s;
 }
 
 .profileContainer > div > img:hover {
