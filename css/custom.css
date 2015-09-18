@@ -42,7 +42,7 @@
 .blog-content {
   overflow: hidden;
   transition: max-height 1s;
-  max-height: 40em;
+  max-height: 80em;
   margin-top: .5em;
   padding: 0 .8rem;
 }
