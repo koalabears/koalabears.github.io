@@ -51,7 +51,7 @@ function arrFromClass(elem, className) {
 
 // an array of the divs which wrap each of our posts
 var postWrappers = arrFromClass(document, 'minimalpost');
-
+// var postContentHeights = [];
 // for each of our post wrappers
 postWrappers.forEach(function(elem) {
 // find its first child of class blogtitlebanner and attach click listenter
