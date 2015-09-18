@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Project-1: Summary"
+date:   2015-09-18 12:23:00
+categories: p1
+---
+
+###Summary
+- Website needs to be worked on continuously, as we upload future project details.
+
+###Lessons Learned:
+- A 2-day sprint is short. Very short. Work on completing the basic outline structure and design before considering details.
+- Delete Jekyll's files and work on a clean slate - the original css files were confusing and difficult to follow. Next time, start anew.
+- Comment files so that they make sense to anyone and everyone.
+- Consider dedicating CCS to one person? Making sure the margins, etc. and where they are set, can get a bit confusing otherwise.
+
+###Future Improvements:
+- Make it work for mobile - use media-query to make margins, text-sizes, etc. responsive.
+- Experiment with blog-text colour, font, etc.
+- Experiment with scrolling features,
+- Add a 'Blog' tab, 'search-box', "read more" button for the blogs, project list, etc.
+- Link the 'Blog' and 'Projects' tabs.
+
+<!-- ![p1-improvements-stretches](https://) -->
