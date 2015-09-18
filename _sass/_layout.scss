@@ -108,6 +108,13 @@
     @extend %clearfix;
     text-align: center;
     margin: 0 10%;
+    // overflow:auto;
+}
+
+@media (max-width: 20em) {
+  .footer-col-wrapper{
+    max-width: 5rem;
+  }
 }
 
 .contact-list,
@@ -118,8 +125,8 @@
 
 .footer-col {
    float: left;
-   margin-top: $spacing-unit / 2;
-   margin-bottom: $spacing-unit / 2;
+   margin-top: 1em;
+   margin-bottom: 0;
    //padding-left: $spacing-unit / 2;
    width: 50%;
 }
@@ -128,6 +135,8 @@
   color: $grey-color;
 }
 
+
+
 // .kb-icon,
 // .fac-icon {
 //    background: url("path_to_img") no-repeat top left;
@@ -135,7 +144,7 @@
 // }
 
 #github {
-  margin-right: 1.5em;
+  margin-right: 2em;
 }
 
 // .footer-col-1 {
