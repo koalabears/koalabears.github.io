@@ -34,7 +34,7 @@ function hasClass(elem, className) {
 }
 
 
-//   finds all children of elem with certain and returns them as an array
+//   finds all children of elem with certain class and returns them as an array
 //   function getElementsByClassName does not return an array
 //   (it return a HTMLCollection). Array.slice can be used to turns an
 //   array-like object into an array. since it is an Array method we cannot
@@ -51,7 +51,7 @@ function arrFromClass(elem, className) {
 
 // an array of the divs which wrap each of our posts
 var postWrappers = arrFromClass(document, 'minimalpost');
-
+// var postContentHeights = [];
 // for each of our post wrappers
 postWrappers.forEach(function(elem) {
 // find its first child of class blogtitlebanner and attach click listenter
