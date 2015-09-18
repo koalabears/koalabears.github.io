@@ -17,8 +17,6 @@
 .site-footer{
   padding:0;
   padding-bottom:0;
-
-
 }
 
 .wrapper {
@@ -34,7 +32,7 @@
 
 .blogtitlebanner:hover {
   background-color: #E6E6E6;
-  transition: background-color .2s;
+  transition: background-color .5s;
 }
 
 .blogtitlebanner h2 {
@@ -123,4 +121,13 @@ img.social-links  {
   padding:0.05em;
 
 
+}
+
+.profileContainer > div > img {
+  transition: height 1s, width 1s;
+}
+
+.profileContainer > div > img:hover {
+  width: 15em;
+  height: 15em;
 }
