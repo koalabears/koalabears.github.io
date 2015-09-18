@@ -9,14 +9,14 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 #FAC details
 fac_title: FOUNDERS AND CODERS
 fac_email: contact@foundersandcoders.org
-fac_url: "http://www.foundersandcoders.org" # the base hostname & protocol for your site
+fac_url: "foundersandcoders.org" # the base hostname & protocol for your site
 fac_phone: "+44 20 3583 2442"
 fac_twitter_username: founderscoders
 fac_github_username:  foundersandcoders
 
 #KOALABEARS details
 #kb_email:
-kb_url: "http://koalabears.github.io" # the base hostname & protocol for your site
+kb_url: "koalabears.github.io" # the base hostname & protocol for your site
 #kb_twitter_username:
 kb_github_username:  koalabears
 

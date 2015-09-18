@@ -40,6 +40,9 @@
 .blogtitlebanner h2 {
   margin-bottom: -1rem;
 }
+.blog-content.bloginvis {
+  max-height: 3em;
+}
 
 .blog-content {
   overflow: hidden;
@@ -49,9 +52,7 @@
   padding: 0 .8rem;
 }
 
-.blog-content.bloginvis {
-  max-height: 3em;
-}
+
 
 .content{
   margin: 5em -2em 0em -2em;
