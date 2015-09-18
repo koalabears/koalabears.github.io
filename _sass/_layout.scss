@@ -105,17 +105,17 @@
     font-size: 15px;
     color: $grey-color;
   //  margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
+    // @extend %clearfix;
     text-align: center;
     margin: 0 10%;
     // overflow:auto;
 }
 
-@media (max-width: 20em) {
-  .footer-col-wrapper{
-    max-width: 5rem;
-  }
-}
+// @media (max-width: 20em) {
+//   .footer-col-wrapper{
+//     min-width: 5vw;
+//   }
+// }
 
 .contact-list,
 .fac-details {
@@ -134,19 +134,12 @@
 .username {
   color: $grey-color;
 }
-
-
-
-// .kb-icon,
-// .fac-icon {
-//    background: url("path_to_img") no-repeat top left;
-//    padding: 2px 0 0 25px;
+//
+// .github,
+// .twitter {
+//   margin: auto;
 // }
-
-#github {
-  margin-right: 2em;
-}
-
+//
 // .footer-col-1 {
 //     width: -webkit-calc((#{$spacing-unit} / 2));
 //     width:         calc((#{$spacing-unit} / 2));
@@ -162,28 +155,12 @@
 // //     width:         calc(45% - (#{$spacing-unit} / 2));
 // // }
 
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
 
     // .footer-col-3 {
     //     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
     //     width:         calc(100% - (#{$spacing-unit} / 2));
     // }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-
+// }
 
 /**
  * Page content
